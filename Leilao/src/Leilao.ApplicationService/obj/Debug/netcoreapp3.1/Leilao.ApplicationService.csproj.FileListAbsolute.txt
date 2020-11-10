@@ -1,0 +1,14 @@
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.ApplicationService\obj\Debug\netcoreapp3.1\Leilao.ApplicationService.AssemblyInfoInputs.cache
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.ApplicationService\obj\Debug\netcoreapp3.1\Leilao.ApplicationService.AssemblyInfo.cs
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.ApplicationService\bin\Debug\netcoreapp3.1\Leilao.ApplicationService.deps.json
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.ApplicationService\bin\Debug\netcoreapp3.1\Leilao.ApplicationService.dll
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.ApplicationService\bin\Debug\netcoreapp3.1\Leilao.ApplicationService.pdb
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.ApplicationService\obj\Debug\netcoreapp3.1\Leilao.ApplicationService.dll
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.ApplicationService\obj\Debug\netcoreapp3.1\Leilao.ApplicationService.pdb
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.ApplicationService\obj\Debug\netcoreapp3.1\Leilao.ApplicationService.csprojAssemblyReference.cache
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.ApplicationService\obj\Debug\netcoreapp3.1\Leilao.ApplicationService.csproj.CoreCompileInputs.cache
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.ApplicationService\bin\Debug\netcoreapp3.1\Leilao.Domain.Core.dll
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.ApplicationService\bin\Debug\netcoreapp3.1\Leilao.Domain.dll
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.ApplicationService\bin\Debug\netcoreapp3.1\Leilao.Domain.pdb
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.ApplicationService\bin\Debug\netcoreapp3.1\Leilao.Domain.Core.pdb
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.ApplicationService\obj\Debug\netcoreapp3.1\Leilao.ApplicationService.csproj.CopyComplete

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Leilao.WebApi</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "M:Leilao.WebApi.Controllers.BidController.GetAll" -->
+        <!-- Badly formed XML comment ignored for member "M:Leilao.WebApi.Controllers.BidController.GetInProgress" -->
+        <!-- Badly formed XML comment ignored for member "M:Leilao.WebApi.Controllers.BidController.GetFinished" -->
+        <!-- Badly formed XML comment ignored for member "M:Leilao.WebApi.Controllers.BidController.GetById(System.Guid)" -->
+        <!-- Badly formed XML comment ignored for member "M:Leilao.WebApi.Controllers.BidController.Finish(System.Guid)" -->
+        <!-- Badly formed XML comment ignored for member "M:Leilao.WebApi.Controllers.BidController.Create(Leilao.ApplicationService.ViewModels.Request.Bid.CreateBidRequestViewModel)" -->
+        <!-- Badly formed XML comment ignored for member "M:Leilao.WebApi.Controllers.ProductController.GetAll" -->
+        <!-- Badly formed XML comment ignored for member "M:Leilao.WebApi.Controllers.ProductController.GetById(System.Guid)" -->
+        <!-- Badly formed XML comment ignored for member "M:Leilao.WebApi.Controllers.ProductController.Create(Leilao.ApplicationService.ViewModels.Request.Product.CreatePrductRequestViewModel)" -->
+        <!-- Badly formed XML comment ignored for member "M:Leilao.WebApi.Controllers.UserController.GetAll" -->
+        <!-- Badly formed XML comment ignored for member "M:Leilao.WebApi.Controllers.UserController.GetById(System.Guid)" -->
+        <!-- Badly formed XML comment ignored for member "M:Leilao.WebApi.Controllers.UserController.Create(Leilao.ApplicationService.ViewModels.Request.User.CreateUserRequestViewModel)" -->
+    </members>
+</doc>

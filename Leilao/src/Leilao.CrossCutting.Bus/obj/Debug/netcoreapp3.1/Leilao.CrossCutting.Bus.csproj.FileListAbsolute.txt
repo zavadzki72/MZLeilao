@@ -1,0 +1,12 @@
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.CrossCutting.Bus\bin\Debug\netcoreapp3.1\Leilao.CrossCutting.Bus.deps.json
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.CrossCutting.Bus\bin\Debug\netcoreapp3.1\Leilao.CrossCutting.Bus.dll
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.CrossCutting.Bus\bin\Debug\netcoreapp3.1\Leilao.CrossCutting.Bus.pdb
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.CrossCutting.Bus\bin\Debug\netcoreapp3.1\Leilao.Domain.Core.dll
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.CrossCutting.Bus\bin\Debug\netcoreapp3.1\Leilao.Domain.Core.pdb
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.CrossCutting.Bus\obj\Debug\netcoreapp3.1\Leilao.CrossCutting.Bus.csprojAssemblyReference.cache
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.CrossCutting.Bus\obj\Debug\netcoreapp3.1\Leilao.CrossCutting.Bus.AssemblyInfoInputs.cache
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.CrossCutting.Bus\obj\Debug\netcoreapp3.1\Leilao.CrossCutting.Bus.AssemblyInfo.cs
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.CrossCutting.Bus\obj\Debug\netcoreapp3.1\Leilao.CrossCutting.Bus.csproj.CoreCompileInputs.cache
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.CrossCutting.Bus\obj\Debug\netcoreapp3.1\Leilao.CrossCutting.Bus.csproj.CopyComplete
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.CrossCutting.Bus\obj\Debug\netcoreapp3.1\Leilao.CrossCutting.Bus.dll
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.CrossCutting.Bus\obj\Debug\netcoreapp3.1\Leilao.CrossCutting.Bus.pdb

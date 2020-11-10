@@ -1,0 +1,8 @@
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Domain.Core\bin\Debug\netcoreapp3.1\Leilao.Domain.Core.deps.json
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Domain.Core\bin\Debug\netcoreapp3.1\Leilao.Domain.Core.dll
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Domain.Core\obj\Debug\netcoreapp3.1\Leilao.Domain.Core.AssemblyInfoInputs.cache
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Domain.Core\obj\Debug\netcoreapp3.1\Leilao.Domain.Core.AssemblyInfo.cs
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Domain.Core\bin\Debug\netcoreapp3.1\Leilao.Domain.Core.pdb
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Domain.Core\obj\Debug\netcoreapp3.1\Leilao.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Domain.Core\obj\Debug\netcoreapp3.1\Leilao.Domain.Core.dll
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Domain.Core\obj\Debug\netcoreapp3.1\Leilao.Domain.Core.pdb

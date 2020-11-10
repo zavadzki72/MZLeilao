@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{809F29F8-4A80-4012-A0F3-5F2E31FC6854}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services", "2 - Services", "{6F07C54C-428A-401A-AC4E-F8BB465CB0E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{C6EE312D-4FD6-4540-BA08-302BFD30D680}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{6976F257-E0B9-4307-B43B-98D2FD6EF210}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{EBB5079C-2824-4D00-92C3-93D1995A0976}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Data", "5.1 - Data", "{93FD8773-D891-4CF2-A6C5-1C0F439D9B37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - CrossCutting", "5.2 - CrossCutting", "{73D9CC3C-2E85-4728-A5E8-4E4431D28B73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leilao.ApplicationService", "src\Leilao.ApplicationService\Leilao.ApplicationService.csproj", "{4E5CDC84-1084-4487-8E48-3B56FFB83C88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leilao.WebApi", "src\Leilao.WebApi\Leilao.WebApi.csproj", "{2768476C-480A-4513-B0A5-3133EC7843AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leilao.Domain.Core", "src\Leilao.Domain.Core\Leilao.Domain.Core.csproj", "{DE48D327-293C-4444-8BD1-13B3B379E0CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leilao.Data.SqlServer", "src\Leilao.Data.SqlServer\Leilao.Data.SqlServer.csproj", "{CA4FBE43-9CF8-4170-BEBE-183A69B01409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leilao.Domain", "src\Leilao.Domain\Leilao.Domain.csproj", "{918AF54A-56C3-44FB-AAAF-3F7C2ED6E89B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leilao.CrossCutting.IoC", "src\Leilao.CrossCutting.IoC\Leilao.CrossCutting.IoC.csproj", "{8C760131-BDB5-4578-92F8-5CDC8D8AC8CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leilao.CrossCutting.Bus", "src\Leilao.CrossCutting.Bus\Leilao.CrossCutting.Bus.csproj", "{68B30693-9C46-4B48-898B-EBEEFCD37235}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E5CDC84-1084-4487-8E48-3B56FFB83C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5CDC84-1084-4487-8E48-3B56FFB83C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5CDC84-1084-4487-8E48-3B56FFB83C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5CDC84-1084-4487-8E48-3B56FFB83C88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2768476C-480A-4513-B0A5-3133EC7843AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2768476C-480A-4513-B0A5-3133EC7843AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2768476C-480A-4513-B0A5-3133EC7843AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2768476C-480A-4513-B0A5-3133EC7843AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE48D327-293C-4444-8BD1-13B3B379E0CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE48D327-293C-4444-8BD1-13B3B379E0CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE48D327-293C-4444-8BD1-13B3B379E0CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE48D327-293C-4444-8BD1-13B3B379E0CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA4FBE43-9CF8-4170-BEBE-183A69B01409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4FBE43-9CF8-4170-BEBE-183A69B01409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4FBE43-9CF8-4170-BEBE-183A69B01409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4FBE43-9CF8-4170-BEBE-183A69B01409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{918AF54A-56C3-44FB-AAAF-3F7C2ED6E89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918AF54A-56C3-44FB-AAAF-3F7C2ED6E89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918AF54A-56C3-44FB-AAAF-3F7C2ED6E89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918AF54A-56C3-44FB-AAAF-3F7C2ED6E89B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C760131-BDB5-4578-92F8-5CDC8D8AC8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C760131-BDB5-4578-92F8-5CDC8D8AC8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C760131-BDB5-4578-92F8-5CDC8D8AC8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C760131-BDB5-4578-92F8-5CDC8D8AC8CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B30693-9C46-4B48-898B-EBEEFCD37235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B30693-9C46-4B48-898B-EBEEFCD37235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B30693-9C46-4B48-898B-EBEEFCD37235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B30693-9C46-4B48-898B-EBEEFCD37235}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{93FD8773-D891-4CF2-A6C5-1C0F439D9B37} = {EBB5079C-2824-4D00-92C3-93D1995A0976}
+		{73D9CC3C-2E85-4728-A5E8-4E4431D28B73} = {EBB5079C-2824-4D00-92C3-93D1995A0976}
+		{4E5CDC84-1084-4487-8E48-3B56FFB83C88} = {C6EE312D-4FD6-4540-BA08-302BFD30D680}
+		{2768476C-480A-4513-B0A5-3133EC7843AB} = {809F29F8-4A80-4012-A0F3-5F2E31FC6854}
+		{DE48D327-293C-4444-8BD1-13B3B379E0CD} = {6976F257-E0B9-4307-B43B-98D2FD6EF210}
+		{CA4FBE43-9CF8-4170-BEBE-183A69B01409} = {93FD8773-D891-4CF2-A6C5-1C0F439D9B37}
+		{918AF54A-56C3-44FB-AAAF-3F7C2ED6E89B} = {6976F257-E0B9-4307-B43B-98D2FD6EF210}
+		{8C760131-BDB5-4578-92F8-5CDC8D8AC8CE} = {73D9CC3C-2E85-4728-A5E8-4E4431D28B73}
+		{68B30693-9C46-4B48-898B-EBEEFCD37235} = {73D9CC3C-2E85-4728-A5E8-4E4431D28B73}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A58E3945-BDD2-4CBA-B57C-EB712A5EC05B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "exUMla4gD4mVUuaiBGWjK6OOsHxJVDTpZNBVH/7Khplzw7B7cwRf3TnfvHcMI5T9ZcFkICSoiW2c/wv5BaokNQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Domain.Core\\Leilao.Domain.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marccustramontin\\.nuget\\packages\\fluentvalidation\\9.2.2\\fluentvalidation.9.2.2.nupkg.sha512",
+    "C:\\Users\\marccustramontin\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\marccustramontin\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\marccustramontin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

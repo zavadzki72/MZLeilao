@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ucANu65HmGix24UFlm2gx6IBral3UGuqfe4By7erR7feN8eq/OZ1uzCEuNCkMqifzzcfac/05mQzKZBcmeNxTw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.CrossCutting.Bus\\Leilao.CrossCutting.Bus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marccustramontin\\.nuget\\packages\\fluentvalidation\\9.2.2\\fluentvalidation.9.2.2.nupkg.sha512",
+    "C:\\Users\\marccustramontin\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\marccustramontin\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\marccustramontin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

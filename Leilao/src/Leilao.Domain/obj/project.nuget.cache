@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "LCGQfEIv78V9T2TnT6i2D1HztcTyHBOhZ0bOFAsxDt/XrYu3Ee/ZaXjjyQK5gIS1LOe3drGghGvvO6siymVMxA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Domain\\Leilao.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marccustramontin\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\marccustramontin\\.nuget\\packages\\fluentvalidation\\9.2.2\\fluentvalidation.9.2.2.nupkg.sha512",
+    "C:\\Users\\marccustramontin\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\marccustramontin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\marccustramontin\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\marccustramontin\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\marccustramontin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,17 @@
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Data.SqlServer\bin\Debug\netcoreapp3.1\Leilao.Data.SqlServer.deps.json
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Data.SqlServer\bin\Debug\netcoreapp3.1\Leilao.Data.SqlServer.dll
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Data.SqlServer\obj\Debug\netcoreapp3.1\Leilao.Data.SqlServer.AssemblyInfoInputs.cache
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Data.SqlServer\obj\Debug\netcoreapp3.1\Leilao.Data.SqlServer.AssemblyInfo.cs
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Data.SqlServer\bin\Debug\netcoreapp3.1\Leilao.Domain.dll
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Data.SqlServer\obj\Debug\netcoreapp3.1\Leilao.Data.SqlServer.csprojAssemblyReference.cache
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Data.SqlServer\bin\Debug\netcoreapp3.1\Leilao.Data.SqlServer.pdb
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Data.SqlServer\bin\Debug\netcoreapp3.1\Leilao.Domain.pdb
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Data.SqlServer\obj\Debug\netcoreapp3.1\Leilao.Data.SqlServer.csproj.CopyComplete
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Data.SqlServer\obj\Debug\netcoreapp3.1\Leilao.Data.SqlServer.dll
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Data.SqlServer\obj\Debug\netcoreapp3.1\Leilao.Data.SqlServer.pdb
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Data.SqlServer\bin\Debug\netcoreapp3.1\Leilao.Data.SqlServer.runtimeconfig.json
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Data.SqlServer\bin\Debug\netcoreapp3.1\Leilao.Data.SqlServer.runtimeconfig.dev.json
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Data.SqlServer\obj\Debug\netcoreapp3.1\Leilao.Data.SqlServer.genruntimeconfig.cache
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Data.SqlServer\obj\Debug\netcoreapp3.1\Leilao.Data.SqlServer.csproj.CoreCompileInputs.cache
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Data.SqlServer\bin\Debug\netcoreapp3.1\Leilao.Domain.Core.dll
+C:\Users\marccustramontin\source\pessoal\MZLeilao\Leilao\src\Leilao.Data.SqlServer\bin\Debug\netcoreapp3.1\Leilao.Domain.Core.pdb

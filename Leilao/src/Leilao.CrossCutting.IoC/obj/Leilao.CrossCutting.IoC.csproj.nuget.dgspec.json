@@ -1,0 +1,520 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.CrossCutting.IoC\\Leilao.CrossCutting.IoC.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.ApplicationService\\Leilao.ApplicationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.ApplicationService\\Leilao.ApplicationService.csproj",
+        "projectName": "Leilao.ApplicationService",
+        "projectPath": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.ApplicationService\\Leilao.ApplicationService.csproj",
+        "packagesPath": "C:\\Users\\marccustramontin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.ApplicationService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marccustramontin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AzureDevOps-BNE/_packaging/BNE/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Domain\\Leilao.Domain.csproj": {
+                "projectPath": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Domain\\Leilao.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.CrossCutting.Bus\\Leilao.CrossCutting.Bus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.CrossCutting.Bus\\Leilao.CrossCutting.Bus.csproj",
+        "projectName": "Leilao.CrossCutting.Bus",
+        "projectPath": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.CrossCutting.Bus\\Leilao.CrossCutting.Bus.csproj",
+        "packagesPath": "C:\\Users\\marccustramontin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.CrossCutting.Bus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marccustramontin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AzureDevOps-BNE/_packaging/BNE/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Domain.Core\\Leilao.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Domain.Core\\Leilao.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.CrossCutting.IoC\\Leilao.CrossCutting.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.CrossCutting.IoC\\Leilao.CrossCutting.IoC.csproj",
+        "projectName": "Leilao.CrossCutting.IoC",
+        "projectPath": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.CrossCutting.IoC\\Leilao.CrossCutting.IoC.csproj",
+        "packagesPath": "C:\\Users\\marccustramontin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.CrossCutting.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marccustramontin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AzureDevOps-BNE/_packaging/BNE/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.ApplicationService\\Leilao.ApplicationService.csproj": {
+                "projectPath": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.ApplicationService\\Leilao.ApplicationService.csproj"
+              },
+              "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.CrossCutting.Bus\\Leilao.CrossCutting.Bus.csproj": {
+                "projectPath": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.CrossCutting.Bus\\Leilao.CrossCutting.Bus.csproj"
+              },
+              "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Data.SqlServer\\Leilao.Data.SqlServer.csproj": {
+                "projectPath": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Data.SqlServer\\Leilao.Data.SqlServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Data.SqlServer\\Leilao.Data.SqlServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Data.SqlServer\\Leilao.Data.SqlServer.csproj",
+        "projectName": "Leilao.Data.SqlServer",
+        "projectPath": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Data.SqlServer\\Leilao.Data.SqlServer.csproj",
+        "packagesPath": "C:\\Users\\marccustramontin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Data.SqlServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marccustramontin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AzureDevOps-BNE/_packaging/BNE/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Domain\\Leilao.Domain.csproj": {
+                "projectPath": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Domain\\Leilao.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Domain.Core\\Leilao.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Domain.Core\\Leilao.Domain.Core.csproj",
+        "projectName": "Leilao.Domain.Core",
+        "projectPath": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Domain.Core\\Leilao.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\marccustramontin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marccustramontin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AzureDevOps-BNE/_packaging/BNE/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.2.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Domain\\Leilao.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Domain\\Leilao.Domain.csproj",
+        "projectName": "Leilao.Domain",
+        "projectPath": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Domain\\Leilao.Domain.csproj",
+        "packagesPath": "C:\\Users\\marccustramontin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marccustramontin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/AzureDevOps-BNE/_packaging/BNE/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Domain.Core\\Leilao.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\marccustramontin\\source\\pessoal\\MZLeilao\\Leilao\\src\\Leilao.Domain.Core\\Leilao.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

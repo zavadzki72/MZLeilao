@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  ####################################################
+  Leilao.webapi:
+    image: leilaowebapi
+    ports:
+       - "8080:80"
+    build:
+      context: .
+      dockerfile: src/Leilao.WebApi/Dockerfile
+  ##########################################################
+  Leilao.Sql:
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    volumes:
+      - my-datavolume:/var/opt/mssql
+    environment:
+      - SA_PASSWORD=Leilao@Passw0rd
+      - ACCEPT_EULA=Y
+    ports:
+      - "5434:1433"
+volumes:
+  my-datavolume:
