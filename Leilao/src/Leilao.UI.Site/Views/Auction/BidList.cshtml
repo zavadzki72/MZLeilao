@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Leilao.ApplicationService.ViewModels.Response.BidResponseViewModel>
+
+@{
+    ViewData["Title"] = "Lances";
+}
+
+<script src="~/js/site.js"></script>
+
+<h1>Lances</h1>
+
+<p>
+    <a asp-action="CreateBid">Dar um lance</a>
+</p>
+<input type="text" id="inputSearch" onkeyup="myFunction()" placeholder="Procure por nome" class="form-group">
+<table class="table" id="tableBids">
+    <thead>
+        <tr>
+            <th>
+                Produto
+            </th>
+            <th>
+                Usuario do Lance
+            </th>
+            <th>
+                Valor do Lance
+            </th>
+            <th>
+                Valor Minimo
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.User.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PriceOffer)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product.Price)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

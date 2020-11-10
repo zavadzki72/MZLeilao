@@ -5,13 +5,10 @@ namespace Leilao.Domain.Commands.Bid {
 
     public class CreateBidCommand : BidCommand {
 
-        public CreateBidCommand(Guid idProduct, Guid idUser, decimal priceOffer, int qtdBids, DateTime startTime, DateTime endTime) {
+        public CreateBidCommand(Guid idProduct, Guid idUser, decimal priceOffer) {
             ProductId = idProduct;
             UserId = idUser;
             PriceOffer = priceOffer;
-            QtdBids = qtdBids;
-            Start = startTime;
-            End = endTime;
         }
 
         public override bool IsValid() {

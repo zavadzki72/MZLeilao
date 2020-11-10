@@ -1,0 +1,43 @@
+﻿@model Leilao.ApplicationService.ViewModels.Request.Bid.CreateBidRequestViewModel
+
+@{
+    ViewData["Title"] = "Dar lance";
+}
+
+<h1>Lance</h1>
+
+<h4>De seu lance aqui</h4>
+<hr />
+<div class="text-danger">@ViewBag.Error</div>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CreateBid">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <label asp-for="IdProduct" class="control-label">Produto</label>
+            <select asp-for="IdProduct" asp-items="ViewBag.Produtos" class="form-control">
+            </select>
+            <br />
+            <label asp-for="IdUser" class="control-label">Usuario</label>
+            <select asp-for="IdUser" asp-items="ViewBag.Users" class="form-control">
+            </select>
+            <br />
+            <div class="form-group">
+                <label asp-for="PriceOffer" class="control-label">Preço</label>
+                <input asp-for="PriceOffer" class="form-control" />
+                <span asp-validation-for="PriceOffer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Dar lance" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-controller="Home" asp-action="Index">Voltar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

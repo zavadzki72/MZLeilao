@@ -9,14 +9,11 @@ namespace Leilao.Domain.Models.Entities {
 
         public Bid() { }
 
-        public Bid(Guid idProduct, Guid idUser, decimal priceOffer, int qtdBids, DateTime start, DateTime end, bool isOver = false) {
+        public Bid(Guid idProduct, Guid idUser, decimal priceOffer, bool isSupered = false) {
             IdProduct = idProduct;
             IdUser = idUser;
             PriceOffer = priceOffer;
-            QtdBids = qtdBids;
-            Start = start;
-            End = end;
-            IsOver = isOver;
+            IsSupered = isSupered;
         }
 
         [Required()]
@@ -24,20 +21,8 @@ namespace Leilao.Domain.Models.Entities {
         public decimal PriceOffer { get; set; }
 
         [Required()]
-        [Column("qtde_bids")]
-        public int QtdBids { get; set; }
-
-        [Required()]
-        [Column("dta_start")]
-        public DateTime Start { get; set; }
-
-        [Required()]
-        [Column("dta_end")]
-        public DateTime End { get; set; }
-
-        [Required()]
-        [Column("is_over")]
-        public bool IsOver { get; set; }
+        [Column("is_supered")]
+        public bool IsSupered { get; set; }
 
         /* EF Relations */
         [ForeignKey("Product"), DatabaseGenerated(DatabaseGeneratedOption.None)]

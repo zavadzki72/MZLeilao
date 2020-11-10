@@ -15,6 +15,8 @@ namespace Leilao.ApplicationService.AutoMapper.Profiles {
             //Products
             CreateMap<Product, ProductResponseViewModel>().ConvertUsing(x => new ProductResponseViewModel { Id = x.Id, Price = x.Price, Name = x.Name});
 
+            //Products
+            CreateMap<Bid, BidResponseViewModel>().ConvertUsing(x => new BidResponseViewModel { Id = x.Id, PriceOffer = x.PriceOffer, IsSupered = x.IsSupered });
         }
 
         private int CalcAge(DateTime birthDate) {

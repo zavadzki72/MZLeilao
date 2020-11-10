@@ -3,6 +3,7 @@ using Leilao.ApplicationService.AutoMapper.Config;
 using Leilao.ApplicationService.Interfaces;
 using Leilao.ApplicationService.Services;
 using Leilao.CrossCutting.Bus;
+using Leilao.Data.SqlServer.Context;
 using Leilao.Data.SqlServer.Repositories;
 using Leilao.Domain.CommandHandlers;
 using Leilao.Domain.Commands.Bid;
@@ -15,6 +16,7 @@ using Leilao.Domain.Models.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -30,6 +32,7 @@ namespace Leilao.CrossCutting.IoC {
 
             // AutoMapper
             var config = AutoMapperConfig.RegisterMaps();
+            config.AssertConfigurationIsValid();
             IMapper mapper = config.CreateMapper();
             services.AddSingleton(mapper);
 
@@ -49,6 +52,13 @@ namespace Leilao.CrossCutting.IoC {
             services.AddScoped<IRequestHandler<CreateProductCommand, Product>, ProductCommandHandler>();
             //// Bid
             services.AddScoped<IRequestHandler<CreateBidCommand, Bid>, BidCommandHandler>();
+
+            //// Entity Framework Core
+            var connectionString = configuration.GetConnectionString("DefaultConnection");
+
+            services.AddDbContext<ApplicationDbContext>(options => {
+                options.UseSqlServer(connectionString);
+            });
 
             // Repositories - SqlServer
             services.AddScoped<IUserRepository, UserRepository>();

@@ -8,9 +8,6 @@ namespace Leilao.Domain.Validations.Bid {
             ValidateIdProduct();
             ValidateIdUser();
             ValidatePriceOffer();
-            ValidateQtdBids();
-            ValidateStartDate();
-            ValidateEndDate();
         }
 
     }

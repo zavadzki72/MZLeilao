@@ -30,31 +30,19 @@ namespace Leilao.Data.SqlServer.Migrations
                         .HasColumnName("dta_creation")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("End")
-                        .HasColumnName("dta_end")
-                        .HasColumnType("datetime2");
-
                     b.Property<Guid>("IdProduct")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid>("IdUser")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<bool>("IsOver")
-                        .HasColumnName("is_over")
+                    b.Property<bool>("IsSupered")
+                        .HasColumnName("is_supered")
                         .HasColumnType("bit");
 
                     b.Property<decimal>("PriceOffer")
                         .HasColumnName("price_offer")
                         .HasColumnType("decimal(18,2)");
-
-                    b.Property<int>("QtdBids")
-                        .HasColumnName("qtde_bids")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("Start")
-                        .HasColumnName("dta_start")
-                        .HasColumnType("datetime2");
 
                     b.Property<DateTime>("UpdateDate")
                         .HasColumnName("dta_update")

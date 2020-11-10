@@ -22,17 +22,5 @@ namespace Leilao.Domain.Validations.Bid {
             RuleFor(c => c.PriceOffer).NotNull().WithMessage(FieldRequired);
         }
 
-        protected void ValidateQtdBids() {
-            RuleFor(c => c.QtdBids).NotNull().WithMessage(FieldRequired);
-        }
-
-        protected void ValidateStartDate() {
-            RuleFor(c => c.Start).NotEqual(DateTime.MinValue).WithMessage(FieldRequired);
-        }
-
-        protected void ValidateEndDate() {
-            RuleFor(c => c.End).NotEqual(DateTime.MinValue).WithMessage(FieldRequired);
-        }
-
     }
 }

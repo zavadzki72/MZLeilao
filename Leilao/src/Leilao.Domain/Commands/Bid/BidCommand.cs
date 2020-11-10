@@ -14,10 +14,7 @@ namespace Leilao.Domain.Commands.Bid {
         public Guid ProductId { get; set; }
         public Guid UserId { get; set; }
         public decimal PriceOffer { get; set; }
-        public int QtdBids { get; set; }
-        public DateTime Start { get; set; }
-        public DateTime End { get; set; }
-        public bool IsOver { get; set; }
+        public bool IsSupered { get; set; }
 
 
     }

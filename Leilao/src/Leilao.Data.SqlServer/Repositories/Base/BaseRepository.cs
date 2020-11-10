@@ -36,7 +36,11 @@ namespace Leilao.Data.SqlServer.Repositories.Base {
 
         public async Task<TEntity> Insert(TEntity item) {
             DbSet.Add(item);
-            await SaveChanges();
+            try {
+                await SaveChanges();
+            }catch(Exception ex) {
+
+            }
             return item;
         }
 

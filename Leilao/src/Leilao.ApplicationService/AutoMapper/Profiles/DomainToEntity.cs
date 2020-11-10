@@ -17,7 +17,7 @@ namespace Leilao.ApplicationService.AutoMapper.Profiles {
             CreateMap<CreateProductCommand, Product>().ConvertUsing(x => new Product(x.Name, x.Price));
 
             //Bids
-            CreateMap<CreateBidCommand, Bid>().ConvertUsing(x => new Bid(x.ProductId, x.UserId, x.PriceOffer, x.QtdBids, x.Start, x.End, false));
+            CreateMap<CreateBidCommand, Bid>().ConvertUsing(x => new Bid(x.ProductId, x.UserId, x.PriceOffer, false));
 
         }
 
